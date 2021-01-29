@@ -1,0 +1,35 @@
+name: JavehTP
+main: net.javeh.javehtp.JavehTP
+version: 1.0
+api-version: 1.16
+commands:
+   TPA:
+      description: Requests a teleport.
+      usage: /<command> [player]
+   TPAHere:
+      description: Requests to teleport someone to you
+      usage: /<command> [player]
+   accept:
+      description: Accept a teleport.
+      usage: /<command>
+   spawn: 
+      description: Teleport to spawn.
+      usage: /<command>
+   home:
+      description: Teleport to your bed location.
+      usage: /<command>
+   sethome:
+      description: Sets the player's home and respawn location to their current position.
+      usage: /<command>
+   warps:
+      description: Lists warps
+      usage: /<command>
+   warp:
+      description: Warps to a specified destination
+      usage: /<command> <warpname>
+   setwarp:
+      description: Sets a specified warp
+      usage: /<command> <warpname>
+   delwarp:
+      description: Deletes a specified warp
+      usage: /<command> <warpname>
